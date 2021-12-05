@@ -28,6 +28,7 @@ li {
   .main {
     padding: 40px 60px;
     height: 1200px;
+    background-color: white;
   }
 
   .copy-container h1 {

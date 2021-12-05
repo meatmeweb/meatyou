@@ -10,8 +10,22 @@ li {
 }
 
   .header {
-    background-color:#e7e6e6;
+    background-color:#333333;
     height:100px;
+    font-family: verdana;
+    color:white
+  }
+
+  h1:hover {
+    color:black;
+    transition:0.2s
+
+  }
+
+  .header-list li {
+    float: right;
+    padding: 33px 40px;
+    margin-right:20px;
   }
 
   .header-logo {
@@ -23,31 +37,35 @@ li {
   .header-list li {
     float: right;
     padding: 40px 20px;
+    font-family: verdana;
 }
 
   .main {
-    padding: 40px 60px;
-    height: 1200px;
-    background-color: white;
+    padding: 120px 80px;
+    background-color:rgb(184, 0, 0);
+    color:white;
+    font-family: verdana;
   }
 
   .copy-container h1 {
-    font-size: 80px;
+    font-size: 100px;
     line-height: 5px;
   }
   
   .contents {
-    height: 500px;
-    margin-top: 100px;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 450px;
   }
 
   .section-title {
-    font-size: 35px;
+    font-size: 50px;
+    text-align:center;
+    font-family: verdana;
   }
   .contents-item {
     float:left;
-    width: 30%;
-    padding-left: 30px;
+    width: 33%;
 }
 
 .center {
@@ -61,40 +79,81 @@ li {
     font-size: 20px;
     position:relative;
     text-align: center;
+    font-family: verdana;
   }
 
   .items {
-    height: 500px;
-    padding-bottom: 80px;
+    height: 100%;
+    padding-bottom: 300px;
+    align-items:center
   }
 
   .items-title {
     font-size: 30px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 60px;
     padding-bottom: 15px;
   }
 
   .items-item {
     float:left;
-    width: 200px;
-    height: 400px;
-    object-fit: cover;
-    margin-right: 40px;
-    padding-left: 40px;
+    width: 25%;
+    transition:0.2s
+  }
+
+  .items-item:hover {
+    transform:scale(1.2)
   }
 
   .items-item p {
     font-size: 20px;
     position:relative;
     text-align: center;
+    font-family: verdana;
   }
 
   .footer {
-    background-color: #000;
+    background-color: #333333;
+    color: #fff;
     height: 120px;
-    padding: 40px;  
+    padding: 40px;
+  }
+  
+  .footer-logo {
+    float: left;
+    font-size: 32px;
+    font-family: verdana;
+  }
+  
+  .footer-list {
+    float: right;
+    font-family: verdana;
+  }
+  
+  .footer-list li {
+    padding-bottom: 20px;
+    font-family: verdana;
+  }
+  input, textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding:20px;
+    font-size: 18px;
+    border: 1px solid;
+    color:#dee7ec;
+    font-family: verdana;
+  }
 
+  .footer-link {
+  color:#dee7ec;
+  text-decoration:none;
+  }
+  a:hover{
+color:red;
+transition:0.2s
+}
+  }
 hr:solid {
   border-top: 5px solid #bbb;
 }
